@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.header {
+    background-color:#6699FF;
+    word-spacing:4em;
+    padding:25px;  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.menu li {
+    display:block;
+    padding: 10px;
+    background-color :#FF9966;
+    color: #ffffff;
+}
+.aside {
+    background-color:#FF9966;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+.footer {
+    background-color:#6699FF; 
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width:100%;	
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px)
+ {
+    [class*="col-"] 
+{
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Teams">Teams</a></li>
+  <li><a href="#Schedules">Schedules</a></li>
+  <li><a href="#Reports">Reports</a></li>
+  <li><a href="#News">News</a><li>
+</ul>
+</div>
+
+<div class="row">
+<div class="col-3 menu">
+<ul>
+<li>Headlines</li>
+<li>Stats</li>
+<li>Gallery</li>
+</ul>
+</div>
+
+<div class="col-6">
+<h1 align='center'>CCL6</h1>
+<p>Celebrity Cricket League, brings together Indias biggest entertainment industries Cricket and Films, where Indias top actors showcase their cricketing skills giving the audiences a sight of a thrilling run to the finish game.</p>
+</div>
+
+<div class="col-3 right">
+<div class="aside">
+<h2>Subscribe</h2>
+<h2>About Us</h2>
+<h2>Facebook</h2>
+<h2>Twitter</h2>
+</div>
+
+</div>
+<div class="footer">
+<p>Copyright@Sports</p>
+</div>
+
+</body>
+</html>
